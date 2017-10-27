@@ -1,9 +1,9 @@
 package me.aoa4eva;
 
-import javax.swing.text.DateFormatter;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.time.Year;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
@@ -33,10 +33,14 @@ public class Main {
         System.out.println("This is the current system time: "+ LocalTime.now());
         System.out.println("This is the current system time (24 h format): "+LocalTime.now().format(hr24));
 
+//        String aDate = "22/05/2010";
+//        userDate = LocalDate.parse(aDate,dTF);
+//        System.out.println(userDate.format(longFormat));
 
         do{
             System.out.println("Enter a date in the past(dd/mm/yyyy)");
             try{
+
                 userDate = LocalDate.parse(keyboard.nextLine(),dTF);
 
             }catch(Exception e)
@@ -52,6 +56,13 @@ public class Main {
 
         //Display the date entered
        System.out.println(userDate.format(shortMonthFormat));
+
+       System.out.println("Now enter a year");
+       String thisYear = keyboard.nextLine();
+       Year newYear = Year.of(Integer.parseInt(thisYear));
+
+       System.out.println("This is the year entered:"+newYear);
+
 
     }
 }
