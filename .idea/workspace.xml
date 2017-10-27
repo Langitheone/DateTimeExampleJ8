@@ -4,7 +4,6 @@
     <list default="true" id="6201bc32-60b5-40e4-bf1c-dd646696a218" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DateTimeExampleJ8/me/aoa4eva/Main.class" afterPath="$PROJECT_DIR$/out/production/DateTimeExampleJ8/me/aoa4eva/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/aoa4eva/Main.java" afterPath="$PROJECT_DIR$/src/me/aoa4eva/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -146,7 +145,7 @@
       <updated>1509016839350</updated>
       <workItem from="1509016846257" duration="3885000" />
       <workItem from="1509022394010" duration="545000" />
-      <workItem from="1509025854559" duration="9935000" />
+      <workItem from="1509025854559" duration="9961000" />
     </task>
     <task id="LOCAL-00001" summary="Updated date example. Includes a loop">
       <created>1509022783049</created>
@@ -183,11 +182,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509032747158</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Modified loop for 2 conditions and updated try catch">
+      <created>1509121310739</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1509121310739</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14365000" />
+    <option name="totallyTimeSpent" value="14391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-1" width="1922" height="1061" extended-state="6" />
