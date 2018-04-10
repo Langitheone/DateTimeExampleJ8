@@ -33,26 +33,12 @@ public class Main {
         System.out.println("This is the current system time: "+ LocalTime.now());
         System.out.println("This is the current system time (24 h format): "+LocalTime.now().format(hr24));
 
-//        String aDate = "22/05/2010";
-//        userDate = LocalDate.parse(aDate,dTF);
-//        System.out.println(userDate.format(longFormat));
+        //This is how you parse a string with a date time formatter
+        String aDate = "22/05/2010";
+        userDate = LocalDate.parse(aDate,dTF);
+        System.out.println(userDate.format(longFormat));
 
-        do{
-            System.out.println("Enter a date in the past(dd/mm/yyyy)");
-            try{
-
-                userDate = LocalDate.parse(keyboard.nextLine(),dTF);
-
-            }catch(Exception e)
-            {
-                if(userDate.isAfter(LocalDate.now())&&userDate!=null)
-                    System.out.println("The date must be in the past");
-
-                   System.out.println("Unable to convert the string you entered to date. Please try again!");
-
-            }
-
-        }while(userDate==null);
+     
 
         //Display the date entered
        System.out.println(userDate.format(shortMonthFormat));
